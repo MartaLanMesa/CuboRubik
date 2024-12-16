@@ -1,0 +1,119 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #87ceeb; /* Azul pastel */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #003366; /* Azul oscuro */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00fff7; /* Naranja */
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main ul {
+    list-style-type: disc;
+    margin: 10px auto;
+    padding: 0;
+    width: fit-content;
+}
+
+main ul li {
+    text-align: left;
+    color: #003366;
+    margin: 5px 0;
+}
+
+figure {
+    margin: 20px auto;
+    width: fit-content;
+}
+
+figure img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #003366;
+    border-radius: 10px;
+}
+
+/* Enlaces */
+a {
+    color: #87ceeb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+/* Tabla personalizada (para la segunda página) */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #003366;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #87ceeb;
+    color: #003366;
+}
+
+td {
+    background-color: #f0f8ff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #87ceeb;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
